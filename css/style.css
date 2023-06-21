@@ -11,7 +11,7 @@
     --firt-color: #883aae;
     --firt-color-alt: #3796f7;
     --conteiner-color: rgba(255, 255, 255, 0.8);
-    --light-grey-1: hsl(0; 0%; 80%);
+    --light-gray-1: hsl(0; 0%; 80%);
     --dark-blue: #191a1f;
     --blue: rgba(55, 86, 247, 0.7);
     --dark: #101010;
@@ -26,8 +26,8 @@
     --fw-700: 700;
     --fw-500: 500;
     --fw-300: 300;
-    /*
-    *Spicing
+    /**
+    * Spicing
     */
     --section-padding: 50px;
 }
@@ -89,7 +89,7 @@ body{
 /*---------------------------------------------*/
 /* Reused Style                                */
 /*---------------------------------------------*/
-.conteiner{
+.container{
     padding-inline: 16px;
 }
 .section{
@@ -139,14 +139,14 @@ p{
     font-size: 16px;
     font-weight: 700;
 }
-.badge-primary{
+.badge.primary{
     background-color: var(--firt-color-alt);
     color: var(--white);
     font-size: 14px;
     font-weight: var(--fw-500);
     text-transform: uppercase;
 }
-.badge-secondary{
+.badge.secondary{
     color: var(--firt-color);
     background-color: var(--conteiner-color);
 }
@@ -321,6 +321,6 @@ p{
 .right_header-toggle span{
     width: 25px;
     height: 2px;
-    margin-bottom: 0;
+    margin-bottom: 6px;
     background-color: #444;
 }
